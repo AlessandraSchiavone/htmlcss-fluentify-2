@@ -23,7 +23,6 @@ body{
 .float-left{
     float:left;
 }
-
 .w-50{
     width:50%;
 }
@@ -57,40 +56,53 @@ body{
 .center{
     text-align: center;
 }
-
-/*main*/
-
-.art-text h2{
-    margin:50px 0;
-    
-}
 .desc{
     line-height: 1.4;
-    letter-spacing: 1px;
     margin-bottom: 20px;
 }
+ .dx{
+     text-align: left;
+ }
+ .sx{
+     text-align: right;
+ }
+ ul{
+     margin-top:50px;
+ }
+/*main*/
+
+/*prima section*/
+.art-text h2{
+    margin:50px 0; 
+}
+
 .link{
     padding-top:10px;
     text-align: center;
     text-decoration: none;
     color:#C3D1DC;
 }
+
 #division{
     color:lightgrey;
     margin-bottom:50px;
 }
+
 .small{
     margin:30px 0;
     font-size: 12px;
 }
+
 .medium{
     font-size:16px;
     letter-spacing: 1.5px;
     margin-bottom: 20px;
 }
+
 .decoration{
     text-decoration: underline;
 }
+/*terza section*/
 .bckg-blue{
     background-color: #0C3259;
     padding-bottom: 30px;
@@ -100,6 +112,7 @@ body{
     line-height: 1.7;
     color:white;
 }
+/*quarta section*/
 .col-left, .col-center, .col-right{
     text-align:left;
     width:calc(100%/3 - 50px);
@@ -133,27 +146,19 @@ article hr{
 .color-green{
     color:#82B11D ;
 }
+/*quinta section*/
 .bckg-blue h3{
      font-size: 22px;;
      color:white;
      margin-top:50px;
      margin-bottom:10px;
  }
-
+/*footer*/
  footer{
      background-color:#17416B ;
     color: white;
  }
 
- .dx{
-     text-align: left;
- }
- .sx{
-     text-align: right;
- }
- ul{
-     margin-top:50px;
- }
  .list h2{
      margin-bottom: 10px;
  }
